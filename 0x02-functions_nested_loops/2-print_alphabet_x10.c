@@ -1,9 +1,7 @@
 #include "main.h"
 /**
- * _abs - Computes the absolute value of an integer
- * @n: The integer to compute the absolute value of
- *
- * Return: The absolute value of n
+ *print_alphabet_x10- return all alphabets
+ * Return: On success 1
  */
 void print_alphabet_x10(void)
 {
