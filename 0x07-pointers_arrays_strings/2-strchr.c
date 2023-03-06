@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _strchr - locates a character in a string
  * @s: pointer to string to be searched
@@ -16,5 +17,5 @@ s++;
 }
 if (c == '\0')
 return (s);
-return (NULL);
+return ('\0');
 }
