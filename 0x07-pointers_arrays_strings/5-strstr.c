@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _strstr - finds the first occurrence of the substring
  * needle in the string haystack
@@ -25,5 +26,5 @@ if (*n == '\0')
 return (h);
 haystack = h + 1;
 }
-return (NULL);
+return ('\0');
 }

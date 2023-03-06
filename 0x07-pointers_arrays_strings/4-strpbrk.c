@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _strpbrk - search a string for any of a set of bytes
  * @s: the string to be searched
@@ -19,5 +20,5 @@ return (&s[i]);
 }
 }
 }
-return (NULL);
+return ('\0');
 }
